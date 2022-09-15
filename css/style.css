@@ -41,6 +41,7 @@ body {
     position: absolute;
     left: -100vw;
     transition: .25s;
+    z-index: 99;
 }
 
 .lateral-menu__active {
