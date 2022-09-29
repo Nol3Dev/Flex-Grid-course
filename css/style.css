@@ -102,3 +102,83 @@ body {
 .lateral-menu__link--pinturas::before {
     content: "\e90a";
 }
+
+.main {
+    padding: 24px 16px;
+}
+
+.title__main {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card1 {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #2C343A;
+}
+
+.content__card {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+}
+
+.emphasis__card {
+    grid-column: span 2;
+}
+
+.title__card {
+    font-size: 1.2rem;
+    font-weight: 700;
+    grid-column: span 2;
+}
+
+.profile__card {
+    color: #95999C;
+    font-size: 0.9rem;
+    grid-column: span 2;
+}
+
+.info__card {
+    display: flex;
+    align-items: center;
+    color: #95999C;
+}
+
+.info__card--time::before {
+    content: "\e90c";
+    margin-right: 8px;
+}
+
+.info__card--views::before {
+    content: "\e90f";
+    margin-right: 8px;
+}
+
+.card__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0480DC;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.card__button--play::before {
+    content: "\e90b";
+    font-size: 24px;
+}
+
+.card__button--emphasis {
+    width: 100%;
+    grid-column: span 2;
+}
+
+.card__button--emphasis::before {
+    margin-right: 8px;
+}
